@@ -30,49 +30,49 @@
             },
             "categoryName": "GENERAL",
             "help": {
-                "aliasesString": "Aliases",
-                "authorString": "{username} - Command List",
-                "commandDetailTitle": "{username} - Information about {command} command",
-                "commandSelectionString": "Please select the command",
-                "commandUsageFooter": "<> = required | [] = optional {devOnly}",
-                "description": "Shows the command list or information for a specific command",
-                "descriptionString": "Description",
-                "footerString": "{prefix}help <command> to get more information on a specific command",
-                "nameString": "Name",
-                "noCommanSuggest": "Couldn't find matching command name. Did you mean this?",
-                "noCommand": "Couldn't find any matching command name.",
+                "aliasesString": "Zamienniki",
+                "authorString": "{username} - Klej mi sie konczy ale to jest lista komend",
+                "commandDetailTitle": "{username} - Pol biurka mi sie pali ale to sa informacje o {command}",
+                "commandSelectionString": "Wybiez komende",
+                "commandUsageFooter": "<> = wymagane | [] = moze byc {devOnly}",
+                "description": "Pokazuje ci jakie sztuczki umiem albo co robi dana sztuczka",
+                "descriptionString": "Opis",
+                "footerString": "{prefix} help <command> zebym ci cokolwiek wiecej powiedzial",
+                "nameString": "Nazwa",
+                "noCommanSuggest": "Nie ma takiej komendy deklu. Chyba ze gadasz o:",
+                "noCommand": "Nie ma takiej komendy deklu.",
                 "slashDescription": "Command name to view specific information about the command",
                 "usage": "{prefix}help [command]",
-                "usageString": "Usage"
+                "usageString": "Tak to sie robi"
             },
             "invite": {
-                "clickURL": "**[Click here]({url})** to invite this bot to your server.",
-                "description": "Get the invite link for the bot",
-                "inviteTitle": "{bot} - Invite Link"
+                "clickURL": "Co ty se wyobrazasz nie zaprzaszaz mnie nigdzie.",
+                "description": "Wywalaj nie ide nigdzie",
+                "inviteTitle": "Hehehehaw"
             },
             "ping": {
-                "description": "Shows the current ping of the bot",
-                "footerString": "Latency of: {user}"
+                "description": "Ty pacz jaki ping mam",
+                "footerString": "Ping {user}"
             }
         },
         "moderation": {
             "ban": {
-                "banFail": "Unable to **`BAN`** member, because: `{message}`",
-                "banSuccess": "**{user}** has been **`BANNED`** from the server.",
-                "bannedByString": "Banned by: {author}",
-                "botNoPermission": "Sorry, but I don't have **`BAN MEMBERS`** permission.",
-                "description": "Ban someone from the server",
-                "slashMemberIDDescription": "Who do you like to ban?",
-                "slashReasonDescription": "Ban reason",
-                "usage": "{prefix}ban <@mention | id> [reason]",
-                "userBanned": "You have been **`BANNED`** from **{guildName}**",
-                "userNoBannable": "Sorry, but I can't **`BAN`** that member.",
-                "userNoPermission": "Sorry, but you don't have **`BAN MEMBERS`** permission to use this command."
+                "banFail": "Nie zbanuje **`BAN`** bo: `{message}`",
+                "banSuccess": "**{user}** zostal **`wyjebany`** do brazylii.",
+                "bannedByString": "zbanowany przez: {author} i olka oczywiscie",
+                "botNoPermission": "**`Ja banowac nie moge przeciez`**.",
+                "description": "banuje z serwera",
+                "slashMemberIDDescription": "Kogo zbanowac?",
+                "slashReasonDescription": "czemu",
+                "usage": "{prefix} ban <@mention | id> [za co]",
+                "userBanned": "Wyjebales **`BANNED`** z **{guildName}** bo tak",
+                "userNoBannable": "Przykleilem go do podlogi **`KLEJEM`** i nie moge mu bana zajebac.",
+                "userNoPermission": "E bo ty **`BANOWAC NIE MOZESZ`** wywalaj mi z tad."
             },
             "categoryName": "MODERATION",
             "common": {
                 "noReasonString": "[Not specified]",
-                "noUserSpecified": "Please specify someone.",
+                "noUserSpecified": "ale kogo niby.",
                 "reasonString": "**Reason**"
             },
             "infractions": {
@@ -83,17 +83,17 @@
                 "usage": "{prefix}infractions [@mention | id]"
             },
             "kick": {
-                "botNoPermission": "Sorry, but I don't have **`KICK MEMBERS`** permission.",
-                "description": "Kick someone from the server",
-                "kickFail": "Unable to **`KICK`** member, because: `{message}`",
-                "kickSuccess": "**{user}** has been **`KICKED`** from the server.",
-                "kickedByString": "Kicked by: {author}",
-                "slashMemberDescription": "Who do you like to kick?",
-                "slashReasonDescription": "Kick reason",
-                "usage": "{prefix}kick <@mention | id> [reason]",
-                "userKicked": "You have been **`KICKED`** from **{guildName}**",
-                "userNoKickable": "Sorry, but I can't **`KICK`** that member.",
-                "userNoPermission": "Sorry, but you don't have **`KICK MEMBERS`** permission to use this command."
+                "botNoPermission": "Nie mozesz **`WYDUPCAC LUDZI`**.",
+                "description": "Wydupcz kogos z serwera",
+                "kickFail": "**`NIE WYDUPCE GO`** bo: `{message}`",
+                "kickSuccess": "**{user}** Zostal **`WYDUPCONY`** do urugwaju.",
+                "kickedByString": "Wydupcony przez: {author}",
+                "slashMemberDescription": "Kogo wydupcyc?",
+                "slashReasonDescription": "czemu",
+                "usage": "{prefix} kick <@mention | id> [reason]",
+                "userKicked": "Zostales **`WYDMUCHANY`** z **{guildName}**",
+                "userNoKickable": "Nie moge **`WYDUPCYC`** tego typa przyklailem mu buty do podlogi.",
+                "userNoPermission": "Nie mozesz **`Wydupcac`** ludzi."
             },
             "modlogs": {
                 "channel": {
@@ -130,13 +130,13 @@
             },
             "purge": {
                 "botNoPermission": "Sorry, but I don't have **`MANAGE MESSAGES`** permission.",
-                "description": "Delete messages",
-                "invalidAmount": "Please specify a valid number of messages to delete.",
-                "purgeFail": "Unable to **`PURGE`** messages, because: `{message}`",
-                "purgeSuccess": "{amount, plural, one {**`1`** message} other {**`#`** messages}} have been **`PURGED`**",
-                "slashAmountDescription": "Number of messages to delete",
-                "usage": "{prefix}purge <amount>",
-                "userNoPermission": "Sorry, but you don't have **`MANAGE MESSAGES`** permission to use this command."
+                "description": "Kasuj to",
+                "invalidAmount": "ile mam skasowac bys mi moze powiedzial najpierw.",
+                "purgeFail": "Nie moglem **`Skasowac`** bo: `{message}`",
+                "purgeSuccess": "{amount, plural, one {**`1`** message} other {**`#`** messages}} zostalo **`SKASOWANE`**",
+                "slashAmountDescription": "Ile wiadomosci skasowac",
+                "usage": "{prefix} purge <amount>",
+                "userNoPermission": "Ej ale ty **`NIE MOZESZ KASOWAC`** wiadomosci deklu. wydupcaj"
             },
             "setmute": {
                 "description": "Set the mute role",
@@ -150,7 +150,7 @@
                 "description": "Un-ban someone from the server",
                 "slashMemberDescription": "Who do you like to un-ban?",
                 "slashReasonDescription": "Un-ban reason",
-                "unbanSuccess": "**{user}** has been **`UN-BANNED`** on the server.",
+                "unbanSuccess": "**{user}** has been **`UN-BANNED`** from the server.",
                 "unbanFail": "Unable to **`UN-BAN`** member, because: `{message}`",
                 "unbannedByString": "Un-banned by: {author}",
                 "usage": "{prefix}unban <id> [reason]"
@@ -168,7 +168,7 @@
             },
             "warn": {
                 "description": "Warn member on the server",
-                "noDM": "Unable to create a DM with that user, but I'll keep warning them.",
+                "noDM": "Unable to create a DM with that user, but I'll keep warning 'em.",
                 "slashMemberDescription": "Who do you like to warn?",
                 "slashReasonDescription": "Warn reason",
                 "usage": "{prefix}warn <@mention | id> [reason]",
@@ -213,55 +213,55 @@
                 "specifyFilter": "Please specify the song filter"
             },
             "lyrics": {
-                "apiError": "The API could not find the song **{song}**, because: `{message}`",
-                "description": "Show the lyrics from the song",
-                "noQuery": "There is nothing playing, or no arguments are provided.",
-                "slashDescription": "Song to search",
-                "usage": "{prefix}lyrics [song]"
+                "apiError": "Nie znalazlem slow do **{song}**, bo: `{message}`",
+                "description": "Olek ci zaprezentuje slowa do piosenki",
+                "noQuery": "Nic nie gra deklu.",
+                "slashDescription": "Co poszukac",
+                "usage": "{prefix} lyrics [song]"
             },
             "nowplaying": {
-                "description": "Show the media player status",
+                "description": "Powiem ci co tera gram",
                 "disableButton": "Previous buttons are no longer active and removed.",
-                "emptyQueue": "Queue is empty."
+                "emptyQueue": "Ni ma zadnej mjuzik w kolejce."
             },
             "pause": {
-                "alreadyPause": "The music player is already paused.",
-                "description": "Pause the music player",
-                "pauseMessage": "The music player has been paused."
+                "alreadyPause": "Juz zapalzowane jest deklu.",
+                "description": "Zapalzuj te dziadostwo",
+                "pauseMessage": "Zapalzowalem mjuzik."
             },
             "play": {
-                "alreadyPlaying": "The music player is already playing to **`{voiceChannel}`** voice channel.",
-                "description": "Play some music",
-                "noSongData": "That URL doesn't have any song data.",
-                "slashQueryDescription": "Query to search",
-                "usage": "{prefix}play <query | url>"
+                "alreadyPlaying": "Juz gram na **`{voiceChannel}`** i nie rusze sie z tad bo mi sie klej na krzeslo wylal.",
+                "description": "plej som mjuzik",
+                "noSongData": "tu nie ma zadnej mjuzik.",
+                "slashQueryDescription": "co wyszukac?",
+                "usage": "{prefix} play <query | url>"
             },
             "queue": {
-                "description": "Show the queue list"
+                "description": "Co olek gral bedzie"
             },
             "remove": {
-                "description": "Remove song(s) from the queue",
-                "noPermission": "You don't have permission to use this command.",
-                "noPositions": "Please specify the song positions to remove.",
+                "description": "Kasuj mjuzik",
+                "noPermission": "nie mozesz kasowac mjuzik.",
+                "noPositions": "ktore mjuzik skasowac.",
                 "slashPositionsDescription": "Position of the songs to remove separated by comma or space",
-                "songSkip": "The current song was removed, song skipped.\n\n",
-                "songsRemoved": "Removed {removed, plural, one {1 song} other {# songs}} from the queue",
-                "usage": "{prefix}remove <positions>"
+                "songSkip": "skasowalem te dziadostwo i pomijam.\n\n",
+                "songsRemoved": "Skasowalem {removed, plural, one {1 song} other {# songs}} Z kolejki",
+                "usage": "{prefix} remove <positions>"
             },
             "repeat": {
-                "actualMode": "Current repeat mode is **`{mode}`**",
-                "description": "Repeat current music or the queue",
-                "footer": "To change mode, see {prefix}help repeat",
-                "newMode": "The repeat mode has been set to **`{mode}`**",
-                "slashDisable": "Disable repeat mode",
-                "slashQueue": "Set repeat mode to **`QUEUE`**",
-                "slashSong": "Set repeat mode to **`SONG`**",
-                "usage": "'{prefix}'repeat <{options}>"
+                "actualMode": "tera mam ustawione **`{mode}`**",
+                "description": "Powtarzam jedno albo wszystkie mjuzik",
+                "footer": "Zeby zobaczyc co tonapisz {prefix} help repeat",
+                "newMode": "Ustawiam powtarzanie mjuzik na **`{mode}`**",
+                "slashDisable": "Nie powtarzam mjuzik",
+                "slashQueue": "tera powtarzam wszystko **`W KOLKO`**",
+                "slashSong": "tera gram ta jedna mjuzik **`W KOLKO`**",
+                "usage": "'{prefix} repeat <{options}>"
             },
             "resume": {
-                "alreadyResume": "The music player is not paused.",
-                "description": "Resume the music player",
-                "resumeMessage": "The music player has been resumed."
+                "alreadyResume": "Mjuzik nie jest zapalzowane przeciez.",
+                "description": "Wznow mjuzik",
+                "resumeMessage": "Mjuzik znowu graaaa."
             },
             "search": {
                 "cancelMessage": "Type {cancel} or c to cancel music selection.",
@@ -285,21 +285,21 @@
                 "newState": "Shuffle mode is now set to **`{state}`**"
             },
             "skip": {
-                "description": "Skip the music",
-                "skipMessage": "Skipped **{song}**",
-                "voteResultMessage": "{length}/{required} voted to skip the current song"
+                "description": "Pomijam mjuzik",
+                "skipMessage": "Pominolem **{song}**",
+                "voteResultMessage": "{length}/{required} zaglosowalo zeby wydupcyc te dziadostwo"
             },
             "skipTo": {
                 "cantPlay": "You can't skip to current music.",
                 "description": "Skip to a specific position in the queue",
                 "noPermission": "You don't have permission to use this command.",
                 "noSongPosition": "Unable to find a song in that position.",
-                "skipMessage": "Skipped to **{song}**",
-                "slashFirstDescription": "Rewind to the first song in the queue",
-                "slashLastDescription": "Skip to the last song in the queue",
-                "slashPositionDescription": "Song position in the queue",
-                "slashSpecificDescription": "Skip to a specific position in the queue",
-                "usage": "'{prefix}'skipto <{options} | number>"
+                "skipMessage": "Pomijam do **{song}**",
+                "slashFirstDescription": "I wydupcam na poczatek ez",
+                "slashLastDescription": "Pomijam do ostatniego mjuzik",
+                "slashPositionDescription": "Pozycja mjuzik",
+                "slashSpecificDescription": "Pomin do danego mjuzik ",
+                "usage": "'{prefix} skipto <{options} | number>"
             },
             "stayInQueue": {
                 "247Disabled": "Stay-in-voice command is disabled.",
@@ -309,70 +309,70 @@
                 "slashDescription": "Turns mode for the stay-in-voice feature"
             },
             "stop": {
-                "description": "Stop the music player",
-                "stoppedMessage": "The music player has been stopped."
+                "description": "I po kiego chuja mi mjuzik gasisz",
+                "stoppedMessage": "Mjuzik off."
             },
             "volume": {
-                "changeVolume": "To change the volume, provide the volume number when using this command.",
-                "currentVolume": "The current volume is **`{volume}`**",
-                "description": "Change the media player volume",
-                "newVolume": "Volume has been set to **`{volume}`**",
-                "plsPause": "Please pause the music instead of setting the volume to **`{volume}`**",
-                "slashDescription": "New volume",
+                "changeVolume": "Jak ci pizdzi to zamknij okno, a tak na serio to tym sie glosnosc zmienia.",
+                "currentVolume": "Tera glosnosc jest taka generalnie **`{volume}`**",
+                "description": "Zmien glosnosc",
+                "newVolume": "Dalem glosnosc na: **`{volume}`**",
+                "plsPause": "Bambiku zapalzuj jak juz a nie mi mjuzik na **`{volume}`** ustawiasz",
+                "slashDescription": "Nowa glosnosc",
                 "usage": "{prefix}volume [new volume]",
-                "volumeLimit": "I can't set the volume above **`{maxVol}`**"
+                "volumeLimit": "Nie moge dac glosniej bo mi uszy wydupi **`{maxVol}`**"
             }
         }
     },
     "events": {
         "channelUpdate": {
-            "connectionReconfigured": "Connection successfully re-configured.",
-            "reconfigureConnection": "Voice channel region changed, re-configuring connection...",
-            "unableReconfigureConnection": "Unable to re-configure connection, the queue has been deleted."
+            "connectionReconfigured": "Discord mi znowu dziala.",
+            "reconfigureConnection": "Region mi zmnienili zw",
+            "unableReconfigureConnection": "Nie udalo mi sie naprawic, biore mjuzik ze soba."
         },
         "createInteraction": {
-            "message1": "Sorry, but that interaction is only for <@{user}> and the server staff.",
-            "message2": "Sorry, but that interaction is only for <@{user}>"
+            "message1": "Wydupcej tego uzywac moze tylko <@{user}> i administracja.",
+            "message2": "Wydupcej tego uzywac moze tylko <@{user}>"
         },
-        "createMessage": "Hi {author}, my prefix is **`{prefix}`**",
-        "cmdLoading": "Loading...",
+        "createMessage": "czes {author}, jestem **`{prefix}`**",
+        "cmdLoading": "De blutucz diwajs is loading",
         "voiceStateUpdate": {
-            "connectionReconfigured": "Connection successfully re-configured.",
-            "deleteQueue": "**`{duration}`** has been passed and there's no one who joined the voice channel, the queue has been deleted.",
-            "deleteQueueFooter": "Queue Deleted",
-            "disconnectFromVCMessage": "Disconnected from the voice channel, the queue has been deleted.",
-            "joinStageMessage": "Successfully joined the stage channel as Speaker.",
-            "joiningAsSpeaker": "Moved to the stage channel, trying to join as Speaker...",
-            "pauseQueue": "Everyone has left the voice channel. To save resources, the queue has been paused.\nIf no one joins the voice channel in the next **`{duration}`**, the queue will be deleted.",
-            "pauseQueueFooter": "Queue Paused",
-            "reconfigureConnection": "Moved to a voice channel with a different region, re-configuring connection...",
-            "resumeQueue": "Someone has joined the voice channel.\nResuming **{song}**",
-            "resumeQueueFooter": "Queue Resumed",
-            "unableJoinStageMessage": "Unable to join as Speaker, the queue has been deleted.",
-            "unableReconfigureConnection": "Unable to re-configure connection, the queue has been deleted."
+            "connectionReconfigured": "discord mi zaczal dzialac.",
+            "deleteQueue": "**`{duration}`** minelo a nikt tu nie przyszedl, skasowalem wszystko bo spierdalaj.",
+            "deleteQueueFooter": "kasuje mjuzik",
+            "disconnectFromVCMessage": "Wyjebalo mi discorda, mjuzik idzie ze mna.",
+            "joinStageMessage": "Ty dobra mikrofon mi sie podpial.",
+            "joiningAsSpeaker": "O kurwa na scene mnie wzywaja, Ale nie wiem czy mi sie discord nie zjebal to nie wiem czy mowic moge...",
+            "pauseQueue": "Wszyscy mnie opuscili. Aby oszczedzic mefedron ide spac.\nIf Jak nikt tu nie przyjdzie w ciagu **`{duration}`**, to kasuje ci kurwo wszystko.",
+            "pauseQueueFooter": "Palzujemy mjuzik",
+            "reconfigureConnection": "Summonuja mnie z innego miejsca, wbijam znowu...",
+            "resumeQueue": "Jakis kamilopodobny osobnik wbil na kanal.\nMjuzik leci dalej **{song}**",
+            "resumeQueueFooter": "Dobra ja ci cos puszcze tera",
+            "unableJoinStageMessage": "De blutucz dewajs is not ridi to pel, Kasuje ci kurwo wszystko.",
+            "unableReconfigureConnection": "Nie moge sie polaczyc, Kasuje ci kurwo wszystko."
         }
     },
     "reusable": {
-        "invalidUsage": "Invalid usage, please use **`{prefix} {name}`** for more information.",
-        "pageFooter": "Page {actual} of {total}"
+        "invalidUsage": "Debilu co ty odpierdalasz, uzyj **`{prefix} {name}`**, jak jestes glupi to sie doedukuj.",
+        "pageFooter": "Mjuzik {actual} z {total}"
     },
     "utils": {
-        "cooldownMessage": "{author}, please wait **`{timeleft}`** of cooldown time.",
+        "cooldownMessage": "kurwa {author}, poczekaj **`{timeleft}`** kolego bo zarobiony jestem.",
         "generalHandler": {
-            "errorJoining": "Error while joining the voice channel, because: `{message}`",
-            "errorPlaying": "An error occurred while trying to play music, because: `{message}`",
-            "handleVideoInitial": "Added {length} songs to the queue",
-            "leftVC": "Left from the voice channel because I've been inactive for too long.",
-            "queueEnded": "Queue has ended, use **`{usage}`** to play more music.",
-            "startPlaying": "Started playing **{song}**",
-            "stopPlaying": "Stopped playing **{song}**"
+            "errorJoining": "Cos mi sie pojebalo jak na kanal wbijalem bo: `{message}`",
+            "errorPlaying": "De blutucz diwajs is broken: `{message}`",
+            "handleVideoInitial": "Wjebalem {length} mjuzik do kolejki",
+            "leftVC": "Jak mnie nie uzywasz to spierdalaj ide grac samoloty w war thunderze",
+            "queueEnded": "Skonczyl mi sie mjuzik, napisz **`{usage}`** kluseczko zebym cos znowu gral.",
+            "startPlaying": "mjusik is aktif: **{song}**",
+            "stopPlaying": "ide spac **{song}**"
         },
         "musicDecorator": {
-            "noInVC": "Sorry, but you need to be in a voice channel to do that.",
-            "noQueue": "Nothing is being played.",
-            "sameVC": "You need to be in the same voice channel as mine.",
-            "validVCJoinable": "Sorry, but I can't **`CONNECT`** to your voice channel, make sure I have the proper permissions.",
-            "validVCPermission": "Sorry, but I can't **`SPEAK`** in this voice channel; make sure I have the proper permissions."
+            "noInVC": "E a co ja mam to do sciany grac? Najpierw na kanal wbij a nie",
+            "noQueue": "Tera nic nie gram wal sie.",
+            "sameVC": "Telepatycznie ci nic ciuliku nie zagram. Wbij na ten sam kanal co ja zydzie.",
+            "validVCJoinable": "Downie, **`NIE MOGE WBIC`** na ten twoj jebany kanal, jestem bialym mezczyzna i nie mam praw napraw to.",
+            "validVCPermission": "Downie, **`NIE MAM PRAWA GLOSU`** na tym twoim jebanym kanale, jestem bialym mezczyzna i nie mam praw napraw to."
         }
     }
 }
